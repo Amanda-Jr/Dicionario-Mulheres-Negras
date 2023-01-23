@@ -6,7 +6,9 @@ function carregaDicionario(){
             nome: "Angela Davis", 
             imagem:"./img/angela-davis.png",
             descricao:"Angela Yvonne Davis é uma professora e filósofa socialista estado-unidense que alcançou notoriedade mundial na década de 1970 como integrante do Partido Comunista dos Estados Unidos, dos Panteras Negras, por sua militância pelos direitos das mulheres e contra a discriminação social e racial nos Estados Unidos e por ser personagem de um dos mais polêmicos e famosos julgamentos criminais da recente história dos Estados Unidos.", 
-            citacao:"Não aceito mais as coisas que não posso mudar, estou mudando as coisas que não posso aceitar."},
+            citacao:"Não aceito mais as coisas que não posso mudar, estou mudando as coisas que não posso aceitar.",
+            fonte: "https://www.geledes.org.br/tereza-de-benguela-uma-heroina-negra/"},
+        
         bio02:{
             nome: "Carolina Maria de Jesus", 
             imagem:"https://i.postimg.cc/Fdc5VKMJ/carolina-de-jesus.png",
@@ -32,7 +34,26 @@ function carregaDicionario(){
             imagem:"https://i.postimg.cc/K1q2Zw74/rosa-parks.png",
             descricao:"Rosa Louise McCauley, mais conhecida por Rosa Parks, foi uma costureira negra norte-americana, símbolo do movimento dos direitos civis dos negros nos Estados Unidos. Ficou famosa, em 1º de dezembro de 1955, por ter-se recusado frontalmente a ceder o seu lugar no ônibus a um branco, tornando-se o estopim do movimento que foi denominado boicote aos ônibus de Montgomery e posteriormente viria a marcar o início da luta antissegregacionista.", 
             citacao:"Você nunca deve ter medo do que está fazendo quando está certo."},
+        bio07:{
+            nome: "Enedina Alves Marques",
+            imagem:"https://s2.glbimg.com/BJMf311uuhzqXMHLwDBQELfFBb8=/0x0:400x400/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_fde5cd494fb04473a83fa5fd57ad4542/internal_photos/bs/2023/4/p/f7nCQSQdAewmRxsKGgCA/enedina-alves-marques-capa-1-.jpg",
+            descricao: "Enedina Alves Marques nasceu em 1913, na cidade de Curitiba, Brasil. Ela trabalhou como empregada doméstica e babá para terminar o ensino médio e tornou-se professora depois de se formar. Cursou engenharia civil na Universidade Federal do Paraná em 1940. Entretanto, durante a faculdade, Marquez foi hostilizada e ignorada por alguns de seus professores e colegas - principalmente por conta dos preconceitos da sociedade. Apesar de enfrentar discriminação ao se formar em um campo dominado por homens brancos, Marques persistiu e foi a única mulher ao lado de 32 alunos do sexo masculino a se formar em 1945. Iniciou a carreira na Secretaria Estadual de Transportes e Obras Públicas como auxiliar de engenharia e transferiu-se para a Secretaria Estadual de Águas e Energia Elétrica do Paraná, onde contribuiu com projetos de grande porte, como o desenvolvimento da Usina Hidrelétrica do Paraná em vários rios da região, o levantamento topográfico e a construção da maior hidrelétrica subterrânea, a Usina Capivari-Cachoeira. Em reconhecimento às suas contribuições para o Paraná e para a engenharia, seu nome foi inscrito no Memorial à Mulher junto com outras 53 mulheres pioneiras brasileiras. Uma rua de um bairro de Curitiba recebeu o nome de Rua Engenheira Enedina Alves Marques em homenagem a ela. E em 2006 foi fundado o Instituto de Mulheres Negras Enedina Alves Marques, em Maringá, Paraná.",
+            citacao:" "},
+        bio08:{
+            nome:"Harriet Tubman",
+            imagem:"https://www.famousbirthsdeaths.com/wp-content/uploads/2016/04/harriet-tubman-bio-net-worth-facts.jpg",
+            descricao:"Harriet Tubman , foi uma americana abolicionista, humanitária, olheira armada e espiã do Exército dos Estados Unidos durante a Guerra Civil Americana. Nascida durante a escravidão, Tubman escapou e, posteriormente, fez cerca de treze missões para resgatar cerca de setenta famílias e amigos escravizados, usando a rede de ativistas abolicionistas e casas seguras conhecida como Underground railroad. Mais tarde, ela ajudou o abolicionista John Brown a recrutar homens para a sua invasão em Harpers Ferry. Depois da guerra, ela ainda se engajou em causas que buscavam garantir a melhoria de vida dos afro-americanos. Defendeu também a causa sufragista do movimento feminista e liderou obras de caridade. Passou os últimos anos de sua vida em Auburn, local onde faleceu no dia 10 de março de 1913. O funeral de Harriet contou com honrarias militares.",
+            citacao:"Libertei mil escravos. Podia ter liberto outros mil se eles soubessem que eram escravos.",
+        },
+        bio09:{
+            nome:"Tereza de Benguela",
+            imagem:"https://static.wixstatic.com/media/c39ebe_bc9d192ecf33402baa9a11d28b66f89b~mv2.jpg/v1/fit/w_300%2Ch_300%2Cal_c%2Cq_80/file.jpg",
+            descricao:"“Rainha Tereza”, como ficou conhecida em seu tempo, viveu na década de XVIII no Vale do Guaporé, no Mato Grosso. Ela liderou o Quilombo de Quariterê após a morte de seu companheiro, José Piolho, morto por soldados. Segundo documentos da época, o lugar abrigava mais de 100 pessoas, com aproximadamente 79 negros e 30 índios. Sua liderança se destacou com a criação de uma espécie de Parlamento e de um sistema de defesa. Ali, era cultivado o algodão, que servia posteriormente para a produção de tecidos. Havia também plantações de milho, feijão, mandioca, banana, entre outros. O quilombo resistiu da década de 1730 ao final do século. Tereza foi morta após ser capturada por soldados em 1770 – alguns dizem que a causa foi suicídio; outros, execução ou doença.",
+            citacao:" ",
+        },
+
     } //chaves duplas pois é um conjunto de obj, se fosse um obj não precisaria
+    
 
     var content = document.getElementById("content")
 
@@ -47,7 +68,6 @@ function carregaDicionario(){
         '</details>' + 
         '</div>'
     }
-
 
 }
 
