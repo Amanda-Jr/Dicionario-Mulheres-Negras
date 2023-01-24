@@ -9,7 +9,7 @@
 
 body{
     font-family: 'Solitreo', cursive;
-    background-color:#BCEAF9;
+    background-color:#bdeaf9;
 }
 
 header{
@@ -157,5 +157,34 @@ section{
     color: #777;
     font-style: italic;
     padding: 15px;
+}
+
+footer {
+    margin-top: 80px;
+    background: #94b6ce;
+}
+
+.footer_cc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:20px;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+.navegacao__icon {
+    margin-top: 15px;
+    width: 30px ;
+    height: 30px;
 }
 
