@@ -98,7 +98,6 @@ function carregaDicionario(){
         '</details>' + 
         '</div>'
     }
-
 }
 
 carregaDicionario()
